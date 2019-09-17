@@ -10,8 +10,8 @@ ave_inflammation = np.mean(
 ) 
 plt.plot(ave_inflammation)
 
-ave_inflammation = np.max(
+max_inflammation = np.max(
   data,
      axis = 0
 ) 
-plt.plot(ave_inflammation)
+plt.plot(max_inflammation)
